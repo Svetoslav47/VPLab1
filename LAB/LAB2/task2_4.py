@@ -1,5 +1,7 @@
 def main():
     n = int(input('n = '))
+    while (n <= 0):
+        n = int(input('n трябва да е положително число n = '))
 
     is_prime = n > 1
     for i in range(2, n):

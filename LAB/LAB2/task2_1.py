@@ -1,5 +1,8 @@
 def main():
     n = int(input('n = '))
+    while (n <= 0):
+        n = int(input('n трябва да е положително число n = '))
+        
     max_num = int(input())
 
     for i in range(n - 1):
